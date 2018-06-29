@@ -43,7 +43,7 @@ public class ItemsController {
 		modelAndView.addObject("itemList", itemList);
 		
 		//指定返回的页面位置
-		modelAndView.setViewName("/WEB-INF/jsp/itemList.jsp");
+		modelAndView.setViewName("itemList");
 		
 		return modelAndView;
 
